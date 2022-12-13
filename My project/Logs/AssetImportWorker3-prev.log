@@ -1,0 +1,274 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'es' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Inside Dark Studios/De 0/MOBA/My project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52130
+Successfully changed project path to: D:/Inside Dark Studios/De 0/MOBA/My project
+D:/Inside Dark Studios/De 0/MOBA/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 67.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Inside Dark Studios/De 0/MOBA/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   31.0.12027.7000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005765 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 69.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.458 seconds
+Domain Reload Profiling:
+	ReloadAssembly (459ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (330ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (66ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002970 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Inside Dark Studios\De 0\MOBA\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Inside Dark Studios\De 0\MOBA\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Domain Reload Profiling:
+	ReloadAssembly (808ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3838 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (114.1 KB). Loaded Objects now: 4330.
+Memory consumption went from 151.4 MB to 151.3 MB.
+Total: 2.789200 ms (FindLiveObjects: 0.249700 ms CreateObjectMapping: 0.098600 ms MarkObjects: 2.334100 ms  DeleteObjects: 0.106000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 79003.034727 seconds.
+  path: Assets/GothicUI/Artworks/armor_button.png
+  artifactKey: Guid(35b1224c710c91f46a4f96b5b984f611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/armor_button.png using Guid(35b1224c710c91f46a4f96b5b984f611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640dc7a97eac3f8eb3a9f6644b92a4ef') in 0.088841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GothicUI/Artworks/Bookmark_Blue.png
+  artifactKey: Guid(2cefa37eaa070124c9345dd7aaf3c2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Bookmark_Blue.png using Guid(2cefa37eaa070124c9345dd7aaf3c2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c5cb9fbb24a99c0f1b944b904ba153') in 0.014303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GothicUI/Artworks/Book_page_big.png
+  artifactKey: Guid(9741b07ade49d8c41a7dc74328535538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Book_page_big.png using Guid(9741b07ade49d8c41a7dc74328535538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be5494f03666a298cd2a5cb58797f30') in 0.061400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GothicUI/Artworks/Bookmark_Grey.png
+  artifactKey: Guid(45d4f150a3ed6db4e9b22f10ebde0cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Bookmark_Grey.png using Guid(45d4f150a3ed6db4e9b22f10ebde0cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8ca657cb1ff2bd660a1606e09782c0') in 0.018638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GothicUI/Artworks/Bar_Button_lil_yellow.png
+  artifactKey: Guid(7c9df3212788a0749b1bbf725d93621a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Bar_Button_lil_yellow.png using Guid(7c9df3212788a0749b1bbf725d93621a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed15a96b6a7c0291d3a782b458b95391') in 0.014311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GothicUI/Artworks/bottle_icon.png
+  artifactKey: Guid(bc786f3784c9c5a48b9df041d5202618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/bottle_icon.png using Guid(bc786f3784c9c5a48b9df041d5202618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d7472c08da8cb004bbb3ddbd538c54') in 0.020256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GothicUI/Artworks/Bookmark_Grey_2.png
+  artifactKey: Guid(baeb5908c2b135140930001f4ee4202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Bookmark_Grey_2.png using Guid(baeb5908c2b135140930001f4ee4202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b94f7293fa7a87b84339f74075d1cd') in 0.014860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GothicUI/Artworks/Button_exit.png
+  artifactKey: Guid(dd2276526daca96499cfd0c01937058a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Button_exit.png using Guid(dd2276526daca96499cfd0c01937058a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce0992ef70428a75d9f6625826442df') in 0.018518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GothicUI/Artworks/Button_medium3.png
+  artifactKey: Guid(e1de668a9d1fd084dba65fd48d280bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Button_medium3.png using Guid(e1de668a9d1fd084dba65fd48d280bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd53bb71efc05f7530e0b93596e0af8') in 0.020146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GothicUI/Artworks/Bar_Button_mid.png
+  artifactKey: Guid(59348194e79b097478064ca3f2101731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Bar_Button_mid.png using Guid(59348194e79b097478064ca3f2101731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059b9452028c17f1fb4f2bca41ea8475') in 0.014952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GothicUI/Artworks/Bookmark_Green.png
+  artifactKey: Guid(5f131f234764f3d4e9c4da2943f43edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Bookmark_Green.png using Guid(5f131f234764f3d4e9c4da2943f43edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efcaa75ed9268a703051a5cbbe2d6e1') in 0.014824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GothicUI/Artworks/Bookmark_Red.png
+  artifactKey: Guid(472cb6be315cf4446bb4b178ed0808f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Bookmark_Red.png using Guid(472cb6be315cf4446bb4b178ed0808f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd58773180cf8697798eb6cda7e6da9d') in 0.013834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GothicUI/Artworks/Button_long.png
+  artifactKey: Guid(3fa4767cb6553074aac411ca5451c6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Button_long.png using Guid(3fa4767cb6553074aac411ca5451c6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89450d2940babb5f8027b0146f8a04d9') in 0.020198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GothicUI/Artworks/Button_medium.png
+  artifactKey: Guid(7276a353569a55b4ea8adb99ef279c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Button_medium.png using Guid(7276a353569a55b4ea8adb99ef279c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604dd1a58614bdaaa578d7ad78d0c2ab') in 0.017628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GothicUI/Artworks/bag_icon.png
+  artifactKey: Guid(2a56636ba97c15942bf4d16bd049f7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/bag_icon.png using Guid(2a56636ba97c15942bf4d16bd049f7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9cff72e70a2a68525dae74fe43ebf6') in 0.014836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GothicUI/Artworks/Button_long3.png
+  artifactKey: Guid(56d7798fc0e05ee43b8fb2a1a658a805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Button_long3.png using Guid(56d7798fc0e05ee43b8fb2a1a658a805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4f72f3da917306e22e31628be6a5e1') in 0.023009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GothicUI/Artworks/book_Button.png
+  artifactKey: Guid(3fbb249110066e94d95511486a608306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/book_Button.png using Guid(3fbb249110066e94d95511486a608306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd4c2ddd6983bf8915a5481667b0229') in 0.012565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GothicUI/Artworks/Button_long2.png
+  artifactKey: Guid(f789fc3e0091fdc479640eb47432887f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Button_long2.png using Guid(f789fc3e0091fdc479640eb47432887f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a326c316fd7bdd1375a1a03a76bd449') in 0.018114 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

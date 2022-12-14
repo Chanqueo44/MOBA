@@ -36,15 +36,9 @@ namespace Minimalist.Bar.UI
 
             return;
 
-            serializedObject.Update();
+            
 
-            this.SubscriptionSection(bar);
-
-            this.BarColorsSection(bar);
-
-            this.BarBordersSection(bar);
-
-            this.AnimationTestButtons(bar);
+            
         }
 
         private void SubscriptionSection(BarBhv bar)

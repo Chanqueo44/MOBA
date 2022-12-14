@@ -57,6 +57,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
      <Compile Include="Assets\Game\Scripts\Audio\AudioVolumeController.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\Utility\ReadOnlyAttribute.cs" />
+     <Compile Include="Assets\Health.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\Quantity\QuantityBhv.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
@@ -69,6 +70,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\GothicUI\Scripts\DayDurationController.cs" />
+     <Compile Include="Assets\CameraFollow.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\Utility\BarSystemManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\DecrementFillBhv.cs" />
@@ -98,6 +100,7 @@
      <Compile Include="Assets\Z ! MOBA Environment Art Pack\Scripts\Rulemovement.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\FillProxyBhv.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\CameraScroll.cs" />
      <Compile Include="Assets\MobaGame\Scripts\Hierarchy\Hero.cs" />
      <Compile Include="Assets\AlyndraAnimator.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\BackgroundLabelBhv.cs" />
@@ -106,6 +109,7 @@
      <Compile Include="Assets\Game\Scripts\Audio\AudioVolumeManager.cs" />
      <Compile Include="Assets\MobaGame\Scripts\Hierarchy\PlayerAttack.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\MainFillBhv.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\MainBorderBhv.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\MainLabelBhv.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
@@ -119,6 +123,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\LabelManagerBhv.cs" />
      <Compile Include="Assets\MobaGame\Scripts\Hierarchy\NonNeutral.cs" />
+     <Compile Include="Assets\MobaGame\Scenes\UI\UIHpAndResources.cs" />
      <Compile Include="Assets\Z ! MOBA Environment Art Pack\Scripts\UVScroll.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\GlowBhv.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\EmptyBhv.cs" />
@@ -136,7 +141,9 @@
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\BarCanvasBhv.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\LabelBhv.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\MobaGame\Scenes\UI\UIHpAndResources.cs" />
+     <Compile Include="Assets\inputTarget.cs" />
+     <Compile Include="Assets\Targetable.cs" />
+     <Compile Include="Assets\combat.cs" />
      <None Include="Assets\Game\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\GothicUI\Shaders\FluidDouble.shader" />
      <None Include="Assets\GothicUI\Shaders\BarShader.shader" />

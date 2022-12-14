@@ -18,6 +18,10 @@ public abstract class Entity : MonoBehaviour
     [SerializeField] protected float attackRange;
     [SerializeField] protected float goldReward;
     [SerializeField] protected float expReward;
+    [SerializeField] protected float attackDamage;
+    [SerializeField] protected float abilityPower;
+    
+    [SerializeField] protected float speed;
 
     protected Entity currentEnemy;
     protected Entity lastHitBy;
@@ -90,6 +94,10 @@ public abstract class Entity : MonoBehaviour
         this.lastHitBy=enemy;
     }
 
+    public void setSpeed(float speed){
+        this.speed = speed;
+    }
+
     //getters
 
     public Vector3 getSpawnLocation(){
@@ -132,6 +140,10 @@ public abstract class Entity : MonoBehaviour
     }
     public Entity getLastHitBy(){
         return this.lastHitBy;
+    }
+
+    public float getSpeed(){
+        return this.speed;
     }
 
     void Start(){

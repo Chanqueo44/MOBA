@@ -9,19 +9,32 @@ public class Movement : MonoBehaviour
     NavMeshAgent agent;
 
     public float rotateSpeedMovement = 0.1f;
-    float rotateVelocity;
+    public float rotateVelocity;
+    float movementSpeed;
 
+    private Combat combatScript;
+    public NavMeshAgent getAgent(){
+            return agent;
+        }
+    public float getRotateVelocity(){
+        return this.rotateVelocity;
+    }    
+    public void setRotateVelocity(float velocity){
+        this.rotateVelocity= velocity;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         agent= gameObject.GetComponent<NavMeshAgent>();
+        combatScript = gameObject.GetComponent<Combat>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        movementSpeed = GetComponentInParent<Hero>().getSpeed()/100;
+        agent.speed = movementSpeed;
         if(Input.GetMouseButtonDown(1)){
             RaycastHit hit;
             
@@ -42,5 +55,22 @@ public class Movement : MonoBehaviour
         if(Input.GetKey(KeyCode.Q)){
             GetComponentInParent<Hero>().useAbility1();
         }
+
+
+        if(Input.GetKey(KeyCode.W)){
+            GetComponentInParent<Hero>().useAbility2();
+        }
+
+
+        if(Input.GetKey(KeyCode.E)){
+            GetComponentInParent<Hero>().useAbility3();
+        }
+
+
+        if(Input.GetKey(KeyCode.R)){
+            GetComponentInParent<Hero>().useAbility4();
+        }
+
+        
     }
 }

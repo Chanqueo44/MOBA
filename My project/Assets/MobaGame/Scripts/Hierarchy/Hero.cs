@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public abstract class Hero : NonNeutral
 {
-     public GameObject resourceUI;
+    public GameObject resourceUI;
     protected int gold;
     protected int kills;
     protected int deaths;
@@ -14,12 +14,20 @@ public abstract class Hero : NonNeutral
     [SerializeField] protected string ability1Name, ability2Name, ability3Name, ability4Name;
     [SerializeField] protected int exp;
     [SerializeField] protected int lvl;
+
+    //Ability Variables
     public Image ability1Image,ability2Image, ability3Image, ability4Image;
     public Image ability1ImageDark,ability2ImageDark, ability3ImageDark, ability4ImageDark;
     [SerializeField] protected float cooldown1, cooldown2, cooldown3, cooldown4;
-
     protected bool isCoolDown1=false, isCoolDown2=false, isCoolDown3=false, isCoolDown4=false;
+    protected bool isAbilityActive1=false, isAbilityActive2=false, isAbilityActive3=false, isAbilityActive4=false;
 
+    protected NonNeutral currentTarget;
+    
+
+
+
+   
     
     protected void levelUp(){}
 
@@ -50,6 +58,11 @@ public abstract class Hero : NonNeutral
     public abstract void useAbility4();
 
     //Setters
+
+    public void setCurrentTarget(NonNeutral target){
+        this.currentTarget=target;
+    }
+   
     public void setIsCoolDown1(bool cool){
        this.isCoolDown1=cool;
     }
@@ -114,5 +127,11 @@ public abstract class Hero : NonNeutral
     public bool getIsCoolDown4(){
         return this.isCoolDown4;
     }
+   
+
+    public NonNeutral getCurrentTarget(){
+        return this.currentTarget;
+    }
+  
 
 }

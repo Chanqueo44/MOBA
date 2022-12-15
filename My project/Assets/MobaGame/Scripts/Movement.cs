@@ -52,24 +52,6 @@ public class Movement : MonoBehaviour
                 transform.eulerAngles= new Vector3(0, rotationY,0);
             }
         }
-        if(Input.GetKey(KeyCode.Q)){
-            GetComponentInParent<Hero>().useAbility1();
-        }
-
-
-        if(Input.GetKey(KeyCode.W)){
-            GetComponentInParent<Hero>().useAbility2();
-        }
-
-
-        if(Input.GetKey(KeyCode.E)){
-            GetComponentInParent<Hero>().useAbility3();
-        }
-
-
-        if(Input.GetKey(KeyCode.R)){
-            GetComponentInParent<Hero>().useAbility4();
-        }
 
         
     }

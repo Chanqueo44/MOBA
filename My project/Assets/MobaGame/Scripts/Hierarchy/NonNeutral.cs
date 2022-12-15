@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class NonNeutral : Entity
 {
-     protected int team;
+    public int team=1;
 
     public void setTeam(int t){
         this.team=t;

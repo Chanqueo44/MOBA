@@ -12,14 +12,22 @@ public class UIAbilities : MonoBehaviour
     protected Image abilityImage4, abilityImage4Dark;
 
     private float cooldown1, cooldown2, cooldown3, cooldown4;
-        public KeyCode ability1;
-        public KeyCode ability2;
-        public KeyCode ability3;
-        public KeyCode ability4;
+    public KeyCode ability1;
+    public KeyCode ability2;
+    public KeyCode ability3;
+    public KeyCode ability4;
 
+     // variables for using Ability1   
+
+   
+    public Canvas ability1Canvas;
+   
+    
     // Start is called before the first frame update
     void Start()
     {
+
+        //starting UI variables
         abilityImage1= myHero.getAbility1Image();
         this.abilityImage1Dark=myHero.getAbility1ImageDark();
         abilityImage1Dark.fillAmount=0;
@@ -42,7 +50,10 @@ public class UIAbilities : MonoBehaviour
         this.abilityImage4Dark=myHero.getAbility4ImageDark();
         abilityImage4Dark.fillAmount=0;
         cooldown4=myHero.getCoolDown4();
-        
+
+        this.ability1Canvas.enabled=false;
+     
+           
     }
 
     // Update is called once per frame
@@ -53,17 +64,20 @@ public class UIAbilities : MonoBehaviour
         Ability3();
         Ability4();
 
-        
+       
     }
 
     private void Ability1(){
-        if(Input.GetKey(ability1) && myHero.getIsCoolDown1()==false){
+        if(Input.GetKey(ability1) && myHero.getIsCoolDown1()==false ){
+            StartCoroutine(chooseTargetAbility1());
+            ability1Canvas.enabled=true;
             myHero.setIsCoolDown1(true);
             abilityImage1Dark.fillAmount=1;
         }
         if(myHero.getIsCoolDown1()==true){
+          
             abilityImage1Dark.fillAmount-=1/ cooldown1*Time.deltaTime;
-
+          
             if(abilityImage1Dark.fillAmount<=0){
                 abilityImage1Dark.fillAmount=0;
                 myHero.setIsCoolDown1(false);
@@ -71,6 +85,23 @@ public class UIAbilities : MonoBehaviour
         }
         
 
+    }
+
+    public IEnumerator chooseTargetAbility1(){
+        while(!Input.GetMouseButton(0)){
+            yield return null;
+        }
+        if(Input.GetMouseButton(0)){
+            myHero.GetComponentInChildren<AlyndraAnimator>().ability1Trigger();
+            RaycastHit hit;
+            if(Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity)){
+                    Collider gotHit= hit.transform.GetComponent<Collider>();
+                    if(gotHit.GetComponentInParent<NonNeutral>()){
+                            myHero.setCurrentTarget(gotHit.GetComponentInParent<NonNeutral>());
+                            myHero.useAbility1();
+                    }
+            }
+        }
     }
     
     private void Ability2(){

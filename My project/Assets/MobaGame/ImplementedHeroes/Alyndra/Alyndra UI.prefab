@@ -292,6 +292,11 @@ MonoBehaviour:
   ability3: 101
   ability4: 114
   ability1Canvas: {fileID: 0}
+  ability3Canvas: {fileID: 0}
+  ability3Range: {fileID: 0}
+  ability4Canvas: {fileID: 0}
+  ability4Range: {fileID: 0}
+  maxAbility3Distance: 1
 --- !u!114 &516905943959378324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -946,7 +951,7 @@ PrefabInstance:
     - target: {fileID: 1453997213536984109, guid: aa54240716ecdd9439217f2b7b9c02a9, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 269ea26971f0b5e458750221c1c491c5, type: 3}
+      objectReference: {fileID: 21300000, guid: f6e951aa1a917de40b12152f7ac79d6b, type: 3}
     - target: {fileID: 1453997213536984109, guid: aa54240716ecdd9439217f2b7b9c02a9, type: 3}
       propertyPath: m_FillAmount
       value: 1
@@ -1077,7 +1082,7 @@ PrefabInstance:
     - target: {fileID: 1453997213536984109, guid: aa54240716ecdd9439217f2b7b9c02a9, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 269ea26971f0b5e458750221c1c491c5, type: 3}
+      objectReference: {fileID: 21300000, guid: 91c891587a7a1cb48a7c4cd1cdd74e7b, type: 3}
     - target: {fileID: 1453997213536984109, guid: aa54240716ecdd9439217f2b7b9c02a9, type: 3}
       propertyPath: m_FillAmount
       value: 1
@@ -1208,7 +1213,7 @@ PrefabInstance:
     - target: {fileID: 1453997213536984109, guid: aa54240716ecdd9439217f2b7b9c02a9, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 269ea26971f0b5e458750221c1c491c5, type: 3}
+      objectReference: {fileID: 21300000, guid: 6fb4882561275e549a3cf9f71ca9b71c, type: 3}
     - target: {fileID: 1453997213536984109, guid: aa54240716ecdd9439217f2b7b9c02a9, type: 3}
       propertyPath: m_FillAmount
       value: 1
@@ -1468,6 +1473,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1453997213536984109, guid: aa54240716ecdd9439217f2b7b9c02a9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c2c033434d0c5f2488cac1c60de31ff2, type: 3}
+    - target: {fileID: 1453997213536984109, guid: aa54240716ecdd9439217f2b7b9c02a9, type: 3}
       propertyPath: m_FillAmount
       value: 1
       objectReference: {fileID: 0}
@@ -1722,6 +1731,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1453997213536984109, guid: aa54240716ecdd9439217f2b7b9c02a9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dd2276526daca96499cfd0c01937058a, type: 3}
+    - target: {fileID: 1453997213536984109, guid: aa54240716ecdd9439217f2b7b9c02a9, type: 3}
       propertyPath: m_FillAmount
       value: 1
       objectReference: {fileID: 0}
@@ -1848,6 +1861,10 @@ PrefabInstance:
       propertyPath: m_Type
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1453997213536984109, guid: aa54240716ecdd9439217f2b7b9c02a9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 96be51b9b30baac4e8e50d363a68849e, type: 3}
     - target: {fileID: 1453997213536984109, guid: aa54240716ecdd9439217f2b7b9c02a9, type: 3}
       propertyPath: m_FillAmount
       value: 1

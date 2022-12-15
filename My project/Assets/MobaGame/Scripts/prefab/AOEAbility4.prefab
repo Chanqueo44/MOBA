@@ -94,5 +94,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 021398383d1911943b59412e921cd0f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myHero: {fileID: 7450729290362185758, guid: 090de70ac302a114c8a77af93666a83b, type: 3}
   healthOutput: 1
   healing: 20

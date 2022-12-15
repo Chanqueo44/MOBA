@@ -211,7 +211,9 @@ public class UIAbilities : MonoBehaviour
         if(Input.GetMouseButton(0)){
             if(Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity)){
                 ability3Range.GetComponent<Image>().enabled = false; 
+                myHero.GetComponentInChildren<AlyndraAnimator>().ability3Trigger();
                 myHero.useAbility3();
+
             }
         }
         
@@ -247,6 +249,7 @@ public class UIAbilities : MonoBehaviour
         if(Input.GetMouseButton(0)){
             if(Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity)){
                 ability4Range.GetComponent<Image>().enabled = false; 
+                myHero.GetComponentInChildren<AlyndraAnimator>().ability4Trigger();
                 myHero.useAbility4();
             }
         }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class alyndraAbiliity3 : MonoBehaviour
 {   
+        public Hero myHero;
         List<Entity> target= new List<Entity>();
         public float damageOutput = 0.5f;
         private float currentTimer;
@@ -43,9 +44,13 @@ public class alyndraAbiliity3 : MonoBehaviour
         for(int i =0;i<target.Count; i++){
             Entity current = target[i];
             if(current != null){
-                current.decreaseHealth(damage);
-                checkedForDeath(current);
-                
+                if(current.GetType().IsSubclassOf(typeof(NonNeutral))){
+                    NonNeutral currentVar=current as NonNeutral;
+                    if(currentVar.getTeam()!=myHero.getTeam()){
+                        current.decreaseHealth(damage);
+                        checkedForDeath(current);   
+                    }
+                }
             }
             
         }

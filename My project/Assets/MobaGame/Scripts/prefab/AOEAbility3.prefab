@@ -65,6 +65,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 423ba512ed01240468a0990c40db25a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myHero: {fileID: 7450729290362185758, guid: 090de70ac302a114c8a77af93666a83b, type: 3}
   damageOutput: 1
   damage: 10
 --- !u!114 &6064616500532869890

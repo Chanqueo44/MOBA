@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class alyndraAbility4 : MonoBehaviour
 {
+    public Hero myHero;
     List<Entity> target = new List<Entity>();
     public float healthOutput = 0.5f;
     private float currentTimer;
@@ -17,8 +18,6 @@ public class alyndraAbility4 : MonoBehaviour
         if (current != null)
         {
             target.Add(current);
-            Debug.Log("estoy acá");
-
         }
     }
 
@@ -30,8 +29,6 @@ public class alyndraAbility4 : MonoBehaviour
         if (current != null)
         {
             target.Add(current);
-            Debug.Log("estoy acá");
-
         }
 
     }
@@ -51,9 +48,12 @@ public class alyndraAbility4 : MonoBehaviour
         {
             Entity current = target[i];
             if (current != null)
-            {
-                current.increaseHealth(healing);
-                
+            {   if(current.GetType().IsSubclassOf(typeof(NonNeutral))){
+                    NonNeutral currentVar=current as NonNeutral;
+                    if(currentVar.getTeam()==myHero.getTeam()){
+                        current.increaseHealth(healing);
+                    }
+                }
 
             }
 

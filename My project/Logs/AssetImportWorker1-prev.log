@@ -15,7 +15,7 @@ D:/Inside Dark Studios/De 0/MOBA/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58740
+64822
 Successfully changed project path to: D:/Inside Dark Studios/De 0/MOBA/My project
 D:/Inside Dark Studios/De 0/MOBA/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Inside Dark Studios/De 0/MOBA/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 76.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,79 +63,79 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006464 seconds.
+Registered in 0.006603 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 79.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.478 seconds
+- Completed reload, in  0.461 seconds
 Domain Reload Profiling:
-	ReloadAssembly (479ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (461ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (338ms)
-			LoadAssemblies (55ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (325ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (75ms)
+			SetupTypeCache (67ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (208ms)
+			SetupLoadedEditorAssemblies (203ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
+				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002993 seconds.
+Registered in 0.002902 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Inside Dark Studios\De 0\MOBA\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Inside Dark Studios\De 0\MOBA\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 75.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
+- Completed reload, in  0.838 seconds
 Domain Reload Profiling:
-	ReloadAssembly (888ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (839ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (714ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (679ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
+			SetupTypeCache (179ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (394ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (372ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
@@ -143,12 +143,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3872 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (115.1 KB). Loaded Objects now: 4366.
+Unloading 3873 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (115.2 KB). Loaded Objects now: 4367.
 Memory consumption went from 229.9 MB to 229.8 MB.
-Total: 2.781900 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.100900 ms MarkObjects: 2.265300 ms  DeleteObjects: 0.120700 ms)
+Total: 2.798500 ms (FindLiveObjects: 0.254700 ms CreateObjectMapping: 0.099600 ms MarkObjects: 2.332800 ms  DeleteObjects: 0.110700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,52 +162,316 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 31455.245951 seconds.
-  path: Assets/MobaGame/ImplementedHeroes/DaisyWalker
-  artifactKey: Guid(761894ffbe9bfc548a5e6ba37c5e5a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobaGame/ImplementedHeroes/DaisyWalker using Guid(761894ffbe9bfc548a5e6ba37c5e5a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7a2f92ea0adc5f58f93146e44f3962') in 0.011111 seconds 
+  Time since last request: 43588.017032 seconds.
+  path: Assets/Game/3D
+  artifactKey: Guid(d5732dd71cf517447871c9eb20b20a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/3D using Guid(d5732dd71cf517447871c9eb20b20a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc615819206243b68693f04cf710ea6') in 0.027740 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.592739 seconds.
-  path: Assets/MobaGame/ImplementedHeroes/DaisyW/FBX/GunWoman@Attack01.FBX
-  artifactKey: Guid(2e3d595606b5ee84e91baab26d838d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobaGame/ImplementedHeroes/DaisyW/FBX/GunWoman@Attack01.FBX using Guid(2e3d595606b5ee84e91baab26d838d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff600aaf02f41d555bbab0032758fdb9') in 0.209008 seconds 
+  Time since last request: 31.363079 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Rock_A_Normal.png
+  artifactKey: Guid(c3f65a1d013f48746a0cebf6f7b4da48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Rock_A_Normal.png using Guid(c3f65a1d013f48746a0cebf6f7b4da48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7cc0e6ddb4ba1ad66edd87fe4147b4') in 0.155147 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/MobaGame/ImplementedHeroes/DaisyW/FBX/GunWoman@Skill01.FBX
-  artifactKey: Guid(d2e3a74609b8d7248a360cacd1b9e5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobaGame/ImplementedHeroes/DaisyW/FBX/GunWoman@Skill01.FBX using Guid(d2e3a74609b8d7248a360cacd1b9e5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4959e4c94883256c0ae740691d3a49f7') in 0.087716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/MobaGame/ImplementedHeroes/DaisyW/FBX/GunWoman@Dash.FBX
-  artifactKey: Guid(0eb72b8ba5473b94ab5118d4f44fd59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobaGame/ImplementedHeroes/DaisyW/FBX/GunWoman@Dash.FBX using Guid(0eb72b8ba5473b94ab5118d4f44fd59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30054aa3ef700a8a1c53c3abf413e79') in 0.073695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/MobaGame/ImplementedHeroes/DaisyW/FBX/GunWoman@Skill04.FBX
-  artifactKey: Guid(8a8654d313cb95d46b97cb66738e805c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobaGame/ImplementedHeroes/DaisyW/FBX/GunWoman@Skill04.FBX using Guid(8a8654d313cb95d46b97cb66738e805c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72076d9bd765482891d4983cc0a396b1') in 0.129656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/MobaGame/ImplementedHeroes/DaisyW/FBX/GunWoman@Skill03.FBX
-  artifactKey: Guid(a842beb228fe68e45a6b4aa9a1af8d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobaGame/ImplementedHeroes/DaisyW/FBX/GunWoman@Skill03.FBX using Guid(a842beb228fe68e45a6b4aa9a1af8d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bc923a2109a30dd62e106c908eefdd') in 0.067869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/MobaGame/ImplementedHeroes/DaisyW/FBX/GunWoman@Attack02.FBX
-  artifactKey: Guid(cdf03c4d3af325442a9be36bf9b2f3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobaGame/ImplementedHeroes/DaisyW/FBX/GunWoman@Attack02.FBX using Guid(cdf03c4d3af325442a9be36bf9b2f3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db89e7cc58052bb78ba02758559e102') in 0.061560 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_B_5_Normal.png
+  artifactKey: Guid(65522f42c08ee24418a3dc67cb4753c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_B_5_Normal.png using Guid(65522f42c08ee24418a3dc67cb4753c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f125831520f0fcdd67c87f5b51278dc7') in 0.102801 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/MobaGame/ImplementedHeroes/DaisyW/FBX/GunWoman@Skill02.FBX
-  artifactKey: Guid(01a880dc2775fb3459652b78ac8eecb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobaGame/ImplementedHeroes/DaisyW/FBX/GunWoman@Skill02.FBX using Guid(01a880dc2775fb3459652b78ac8eecb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fa4f9699284eb2126af420d763eb6f') in 0.078775 seconds 
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_B_4.tif
+  artifactKey: Guid(a3110833b61f01d4dbdb70de29792e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_B_4.tif using Guid(a3110833b61f01d4dbdb70de29792e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1af06ede7a8a50708a988facc9c527') in 0.095921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_C_5.tif
+  artifactKey: Guid(e363f65de57124146b03bd884babe6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_C_5.tif using Guid(e363f65de57124146b03bd884babe6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0d67b9998fc475f5fcf9f3c0c98b49') in 0.105856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_A_2.tif
+  artifactKey: Guid(8c9de6174fa145349928c32b42a36e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_A_2.tif using Guid(8c9de6174fa145349928c32b42a36e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f787d65869622fd188f93a28ca5049') in 0.136524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Rock_B_Normal.png
+  artifactKey: Guid(5ef5d112a4a887f4c8ad9f215dff735b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Rock_B_Normal.png using Guid(5ef5d112a4a887f4c8ad9f215dff735b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0b22926186054edac2f53d3b2a16d0') in 0.138250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_D_3_Normal.png
+  artifactKey: Guid(92e89b1031150b64d8b7469a2968a125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_D_3_Normal.png using Guid(92e89b1031150b64d8b7469a2968a125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d2c3694d4a7805bd2b75080387fbd9') in 0.132305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_Trunk_A.tif
+  artifactKey: Guid(7102b5326c1632d4796832f02b723a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_Trunk_A.tif using Guid(7102b5326c1632d4796832f02b723a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3f47932edb781479c0ad891b0ad62d') in 0.178235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_A_1.tif
+  artifactKey: Guid(036f50047910af9439ce2ef9948ea035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_A_1.tif using Guid(036f50047910af9439ce2ef9948ea035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe94d5bc91430742e3f3b4a985fcc1a7') in 0.114110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_C_4.tif
+  artifactKey: Guid(df39fb93ebe566f4faf7bf2fd38afc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_C_4.tif using Guid(df39fb93ebe566f4faf7bf2fd38afc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8d917f84246a02260d3426c335cd95') in 0.177941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_C_1_Normal.png
+  artifactKey: Guid(a8eda77a3dfdfa941af3a9aaec78ec51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_C_1_Normal.png using Guid(a8eda77a3dfdfa941af3a9aaec78ec51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e59086dd2d106ce7c443187bddccc52') in 0.161910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_D_3.tif
+  artifactKey: Guid(a97563bdab05ec24dbed5b928b83958e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_D_3.tif using Guid(a97563bdab05ec24dbed5b928b83958e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969704609cf5af6f363a94d0b638d81d') in 0.062298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_B_5.tif
+  artifactKey: Guid(ac2a98e733bc6454b8c6e90a73961003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_B_5.tif using Guid(ac2a98e733bc6454b8c6e90a73961003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb54778480830de62ada0e947ad2109') in 0.095145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Rock_D_Normal.png
+  artifactKey: Guid(67317c1296eb2ba4a8d16dd88a9133d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Rock_D_Normal.png using Guid(67317c1296eb2ba4a8d16dd88a9133d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b20ba9c76043b7e48adab19f415437') in 0.105102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_C_3_Normal.png
+  artifactKey: Guid(bab4120ac6d476b42bc141c3c52a36cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_C_3_Normal.png using Guid(bab4120ac6d476b42bc141c3c52a36cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccb8ba4eaab9c8c5e355ab421f40333') in 0.208788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_A_5_Normal.png
+  artifactKey: Guid(7b4900d71e3c99e4ca45dcc4cbd03cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_A_5_Normal.png using Guid(7b4900d71e3c99e4ca45dcc4cbd03cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8324f5d6787dfd9adcf7e4c0570c3a46') in 0.099670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Rock_C.tif
+  artifactKey: Guid(c8728158ec7579c4083f3df23b62e9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Rock_C.tif using Guid(c8728158ec7579c4083f3df23b62e9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cf23dd1d6399f7697ec810c158ad3d') in 0.100117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Rock_C_Normal.png
+  artifactKey: Guid(fe0f9b2a39de3254288c7952ea3a1582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Rock_C_Normal.png using Guid(fe0f9b2a39de3254288c7952ea3a1582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117640c22d81728a04e89ca99470f124') in 0.130262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_A_3_Normal.png
+  artifactKey: Guid(7acdd57ffc34a764aad175eb5f40832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_A_3_Normal.png using Guid(7acdd57ffc34a764aad175eb5f40832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74f12563cc288e1037de497a852a4b3') in 0.073693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_A_4_Normal.png
+  artifactKey: Guid(621074a3e0d0dfe49b6134efbe1d4ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_A_4_Normal.png using Guid(621074a3e0d0dfe49b6134efbe1d4ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a077eb15ba31b74181f10ab996368604') in 0.108513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_C_5_Normal.png
+  artifactKey: Guid(299a8775874671148a286f523bfe7f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_C_5_Normal.png using Guid(299a8775874671148a286f523bfe7f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ab1d5d924227fe898a5874def90216') in 0.170807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_B_2.tif
+  artifactKey: Guid(bfb5770d7e34dea438ac5cb0876ec41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_B_2.tif using Guid(bfb5770d7e34dea438ac5cb0876ec41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cd4d5857f10676dbc85484085504fa') in 0.147306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_B_3.tif
+  artifactKey: Guid(b991062b3e29d2b4e9efb9e39f92d501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z ! MOBA Environment Art Pack/Prefabs/Textures/ZMOBA_Tree_B_3.tif using Guid(b991062b3e29d2b4e9efb9e39f92d501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6bf610effe061ccf7115fff50ed417') in 0.090331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.041113 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Aura 2.mat
+  artifactKey: Guid(dd0e26ce6bcc07b4582158369de3ffe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Aura 2.mat using Guid(dd0e26ce6bcc07b4582158369de3ffe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b576f1f773f6c7077d9c96b4169b60') in 0.214055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Book_Blue.mat
+  artifactKey: Guid(3f1b0887c73740346b2ae7dd6f155d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Book_Blue.mat using Guid(3f1b0887c73740346b2ae7dd6f155d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee9ca7101c0cdf4e2b109df1ec779f7') in 0.022949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Aura 6.mat
+  artifactKey: Guid(55cdcb27d6c0ca24aab0744a8b7c88f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Aura 6.mat using Guid(55cdcb27d6c0ca24aab0744a8b7c88f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70017e8ebb91a5f9933830fb0809484e') in 0.139147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Aura 3.mat
+  artifactKey: Guid(2812ba38296d2bd45a8eb307ad26eebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Aura 3.mat using Guid(2812ba38296d2bd45a8eb307ad26eebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29b526632b6f4a1e0f58db3d8a822be') in 0.152879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Crystal 2_Red.mat
+  artifactKey: Guid(a028f65ae0adbe6479c729cd42b7c6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Crystal 2_Red.mat using Guid(a028f65ae0adbe6479c729cd42b7c6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b231c7fd8feef51e34bbf32c6230fda') in 1.269564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Crystal.mat
+  artifactKey: Guid(babea46f28f790d449a3db920b5aa316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Crystal.mat using Guid(babea46f28f790d449a3db920b5aa316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e10744612c4787f9794842df235afa') in 0.666093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Decal 7_Blue.mat
+  artifactKey: Guid(5c821943fa6c2c142aae57e2908c5460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Decal 7_Blue.mat using Guid(5c821943fa6c2c142aae57e2908c5460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954913ec403ba85e4215baab6d236abb') in 0.241779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Book_Red.mat
+  artifactKey: Guid(ef78e49d91cdc0e48a4970e156cc58c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Book_Red.mat using Guid(ef78e49d91cdc0e48a4970e156cc58c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa44c19daf08d52902e7a87368d62cfc') in 0.017491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.599768 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Decal 8_Crater.mat
+  artifactKey: Guid(187cc8e6666fef243b88e1e428f25247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Decal 8_Crater.mat using Guid(187cc8e6666fef243b88e1e428f25247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fc1d19ef662624d31ec0ca4d179c12') in 1.733079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Mushroom_Blue.mat
+  artifactKey: Guid(fc6b90d8996b8364b90d3847f54ea00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Mushroom_Blue.mat using Guid(fc6b90d8996b8364b90d3847f54ea00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b203dd8ba1cc13b6b9e6188f1f1455') in 0.759003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Page.mat
+  artifactKey: Guid(892069846499e374f93fd9541b5149ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Page.mat using Guid(892069846499e374f93fd9541b5149ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4c21daf49f7b1d5eee2f56e24a9ab3') in 0.189776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Rock 3.mat
+  artifactKey: Guid(0b91e24e925f57a4f8dbb998479b0cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Rock 3.mat using Guid(0b91e24e925f57a4f8dbb998479b0cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9977d894003d5b9b6c74a11f24dfe0cd') in 0.725222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Light.mat
+  artifactKey: Guid(90f074729c8e86644b97e07ef78b594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Light.mat using Guid(90f074729c8e86644b97e07ef78b594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffde323955f43cbf96e71f8fe18638df') in 0.079839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Grass.mat
+  artifactKey: Guid(fd943071e7ab59c4f80603266bf5a87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Grass.mat using Guid(fd943071e7ab59c4f80603266bf5a87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922261e11b8601c388b5c647e9b13612') in 1.163106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Ice Lance 3.mat
+  artifactKey: Guid(673166a2f0b4b0145bf2a450aeff31d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Ice Lance 3.mat using Guid(673166a2f0b4b0145bf2a450aeff31d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b8ef2a5c088566d2dd87ed53e6e1dd') in 0.582046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Rain.mat
+  artifactKey: Guid(d0efeef4019bb34419314eb12cc2556a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Rain.mat using Guid(d0efeef4019bb34419314eb12cc2556a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc8857f234d1556b74f942deef1fe31') in 0.088150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Rock 2.mat
+  artifactKey: Guid(4ae09401d0109934fb58b3427e6f295a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Rock 2.mat using Guid(4ae09401d0109934fb58b3427e6f295a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2985219ac171f3d27f73797f87f4243f') in 0.332259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Spells Pack/Particles/Materials/Potion.mat
+  artifactKey: Guid(1381e85ce44111d48bfcff5dff2fb626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Materials/Potion.mat using Guid(1381e85ce44111d48bfcff5dff2fb626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4579be5c5612968c16f45324e8f0e88') in 0.415505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.709143 seconds.
+  path: Assets/Spells Pack/Particles/Textures/Aura 2.png
+  artifactKey: Guid(231416b2b92c0654c96eba5eed018b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Textures/Aura 2.png using Guid(231416b2b92c0654c96eba5eed018b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcbb04c1782dd2dc81c789d254be942') in 0.020796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Spells Pack/Particles/Textures/Decal 5.png
+  artifactKey: Guid(a1f1385769b5f884a837f09f12f65b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Textures/Decal 5.png using Guid(a1f1385769b5f884a837f09f12f65b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5ec73948a460a83551f8206beb4546') in 0.010559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Spells Pack/Particles/Textures/Aura 3.png
+  artifactKey: Guid(76b116e8027510746bd5912f1dfc0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Textures/Aura 3.png using Guid(76b116e8027510746bd5912f1dfc0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a50fa7b9a709f0bdfcfd4bec8da613') in 0.012894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Spells Pack/Particles/Textures/Decal 4_Normal.png
+  artifactKey: Guid(7498a437062d7e842bd5225b10cc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Textures/Decal 4_Normal.png using Guid(7498a437062d7e842bd5225b10cc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df18601bc227a4ee2b34fa682df97843') in 0.010346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Spells Pack/Particles/Textures/Decal 1.png
+  artifactKey: Guid(9c0730abd979c024c9983eb3153986b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Textures/Decal 1.png using Guid(9c0730abd979c024c9983eb3153986b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7bc967f88dad55159d823c444aa8b70') in 0.009812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Spells Pack/Particles/Textures/Aura.png
+  artifactKey: Guid(c9cb4b113ccc9d446b494a1ebabfb1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Textures/Aura.png using Guid(c9cb4b113ccc9d446b494a1ebabfb1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0e1ebef2d62e076182c34e16fd8122') in 0.013621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Spells Pack/Particles/Textures/Decal 3_Normal.png
+  artifactKey: Guid(e5c731dffe22fb943a8103485f7f0090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Textures/Decal 3_Normal.png using Guid(e5c731dffe22fb943a8103485f7f0090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb2da25ca048aab6f18391a74a175f9') in 0.012038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Spells Pack/Particles/Textures/Bat.png
+  artifactKey: Guid(e0ef7e539241d15499e223d65769fc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Textures/Bat.png using Guid(e0ef7e539241d15499e223d65769fc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b325a1b5395d5e888016a95c61d2337b') in 0.011439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Spells Pack/Particles/Textures/Aura 5.png
+  artifactKey: Guid(5bfa3f0c959ab774ebc7f1924e1e0a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Textures/Aura 5.png using Guid(5bfa3f0c959ab774ebc7f1924e1e0a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a36b182a89c600c4a47bc2754d8865') in 0.012538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Spells Pack/Particles/Textures/Decal 7.png
+  artifactKey: Guid(f8d36d0cedf0d5b4998fb8337137d0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Textures/Decal 7.png using Guid(f8d36d0cedf0d5b4998fb8337137d0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697d15300577015ecf779f4e6b600e2a') in 0.009978 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

@@ -23,9 +23,9 @@ public class inputTarget : MonoBehaviour
                 if(hit.collider.GetComponent<Targetable>() != null){
                     selectedEntity.GetComponent<Combat>().targetedEntity = hit.collider.gameObject;
                 }
-                else if(hit.collider.gameObject.GetComponent<Targetable>() == null){
+                /*else if(hit.collider.gameObject.GetComponent<Targetable>() == null){
                     selectedEntity.GetComponent<Combat>().targetedEntity = null;   
-                }
+                }*/
             }
         }
     }

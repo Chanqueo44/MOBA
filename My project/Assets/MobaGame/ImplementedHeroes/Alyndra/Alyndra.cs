@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Alyndra : Hero
 {
+    [SerializeField] private GameObject DOTAreaAbility3;
+    [SerializeField] private GameObject DOTAreaAbility4;
     
+
     public override void giveRewards(){
 
     }
@@ -37,10 +40,14 @@ public class Alyndra : Hero
         }
     }
     public override void useAbility3(){
-        
+        Vector3 position3;
+        position3 = mousePosition.getPosition();
+        Instantiate(DOTAreaAbility3,position3,Quaternion.identity);
     }
+ 
     public override void useAbility4(){
-        
+        Vector3 position3;
+        position3 = mousePosition.getPosition();
+        Instantiate(DOTAreaAbility4, position3, Quaternion.identity);
     }
-   
 }

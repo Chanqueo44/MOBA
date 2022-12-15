@@ -21,6 +21,7 @@ public abstract class Hero : NonNeutral
     [SerializeField] protected float cooldown1, cooldown2, cooldown3, cooldown4;
     protected bool isCoolDown1=false, isCoolDown2=false, isCoolDown3=false, isCoolDown4=false;
     protected bool isAbilityActive1=false, isAbilityActive2=false, isAbilityActive3=false, isAbilityActive4=false;
+    
 
     protected NonNeutral currentTarget;
     

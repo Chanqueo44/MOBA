@@ -214,6 +214,8 @@ MonoBehaviour:
   cooldown2: 0
   cooldown3: 0
   cooldown4: 0
+  DOTAreaAbility3: {fileID: 8390272290977074864, guid: 72363bc520c0ebc46ab0ed757f01edfb, type: 3}
+  DOTAreaAbility4: {fileID: 8390272290977074864, guid: 777b35c526ea9b54ea0edef33a5e811f, type: 3}
 --- !u!114 &7450729290362185759
 MonoBehaviour:
   m_ObjectHideFlags: 0

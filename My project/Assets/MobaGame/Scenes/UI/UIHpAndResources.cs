@@ -11,8 +11,6 @@ public class UIHpAndResources : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        myHero=GetComponentInParent<UIAbilities>().GetComponent<Hero>();
-        playerHPSlider= GetComponent<Slider>();
         playerHPSlider.maxValue= myHero.getMaxHealth();
         playerHPSlider.value= myHero.getCurrentHealth();
     }

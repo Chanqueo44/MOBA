@@ -415,6 +415,7 @@
 "Assets/MobaGame/CameraFollow.cs"
 "Assets/MobaGame/ImplementedHeroes/Alyndra/Alyndra.cs"
 "Assets/MobaGame/ImplementedHeroes/AlyndraAnimator.cs"
+"Assets/MobaGame/ImplementedHeroes/DaisyW/DaisyWalker.cs"
 "Assets/MobaGame/Scenes/UI/UIAbilities.cs"
 "Assets/MobaGame/Scenes/UI/UIHpAndResources.cs"
 "Assets/MobaGame/Scripts/CameraFollow.cs"

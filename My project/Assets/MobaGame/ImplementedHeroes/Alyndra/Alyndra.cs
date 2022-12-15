@@ -25,7 +25,16 @@ public class Alyndra : Hero
     }
     
     public override void useAbility2(){
-        
+         if(this.currentTarget!=null){
+           if(currentTarget.getTeam()!=this.team){
+                float damage= currentTarget.getMaxHealth()*0.1f;;
+                if(currentTarget.getCurrentHealth()-damage<= 0){
+                    //DEBÍA MORIR*inserte voz de isma 
+                    currentTarget.decreaseHealth(damage);
+                }
+                currentTarget.decreaseHealth(damage);
+            }
+        }
     }
     public override void useAbility3(){
         

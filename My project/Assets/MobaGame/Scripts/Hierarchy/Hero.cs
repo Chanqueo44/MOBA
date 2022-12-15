@@ -37,10 +37,12 @@ public abstract class Hero : NonNeutral
     
     public void increaseXP(int expinc){
         this.exp+=expinc;
+        
     }
 
     public void increaseGold(int g){
         this.gold+=g;
+        Debug.Log(this.gold);
     }
     public void  increaseKillCount(){
         this.kills++;

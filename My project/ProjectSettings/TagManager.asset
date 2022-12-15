@@ -4,6 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - AlyndraAbility1
   - EntityTag
   layers:
   - Default

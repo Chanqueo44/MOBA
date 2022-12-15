@@ -42,6 +42,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\Utility\Singleton.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\MobaGame\ImplementedHeroes\DaisyW\DaisyWalker.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Sample Scene\CharacterBhv.cs" />
      <Compile Include="Assets\GothicUI\Scripts\HPFlowController.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Sample Scene\RotatingCameraBhv.cs" />
@@ -165,7 +166,6 @@
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\LabelBhv.cs" />
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\DestroyObject.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\MobaGame\ImplementedHeroes\DaisyW\DaisyWalker.cs" />
      <None Include="Assets\Game\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\GothicUI\Shaders\FluidDouble.shader" />
      <None Include="Assets\Spells Pack\Demo\Environment\Shaders\Rock.shader" />

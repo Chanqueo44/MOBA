@@ -10,12 +10,17 @@ public class AlyndraAnimator : MonoBehaviour
     float motionSmoothTime= .1f;
     float speed;
 
+    
     public void ability1Trigger(){
         this.animAlyndra.SetTrigger("Ability1");
+    }
+     public void ability2Trigger(){
+        this.animAlyndra.SetTrigger("Ability2");
     }
     // Start is called before the first frame update
     void Start()
     {   
+
         agent= gameObject.GetComponent<NavMeshAgent>();
     }
 
@@ -27,5 +32,4 @@ public class AlyndraAnimator : MonoBehaviour
         
     }
 
-    
 }

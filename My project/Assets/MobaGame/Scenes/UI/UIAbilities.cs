@@ -106,6 +106,7 @@ public class UIAbilities : MonoBehaviour
     
     private void Ability2(){
         if(Input.GetKey(ability2) && myHero.getIsCoolDown2()==false){
+            StartCoroutine(chooseTargetAbility2());
             myHero.setIsCoolDown2(true);
             abilityImage2Dark.fillAmount=1;
         }
@@ -148,6 +149,22 @@ public class UIAbilities : MonoBehaviour
             }
         }
 
+    }
+    public IEnumerator chooseTargetAbility2(){
+        while(!Input.GetMouseButton(0)){
+            yield return null;
+        }
+        if(Input.GetMouseButton(0)){
+            myHero.GetComponentInChildren<AlyndraAnimator>().ability2Trigger();
+            RaycastHit hit;
+            if(Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity)){
+                    Collider gotHit= hit.transform.GetComponent<Collider>();
+                    if(gotHit.GetComponentInParent<NonNeutral>()){
+                            myHero.setCurrentTarget(gotHit.GetComponentInParent<NonNeutral>());
+                            myHero.useAbility2();
+                    }
+            }
+        }
     }
 
 }

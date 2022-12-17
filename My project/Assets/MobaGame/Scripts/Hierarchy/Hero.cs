@@ -21,9 +21,11 @@ public abstract class Hero : NonNeutral
     [SerializeField] protected float cooldown1, cooldown2, cooldown3, cooldown4;
     protected bool isCoolDown1=false, isCoolDown2=false, isCoolDown3=false, isCoolDown4=false;
     protected bool isAbilityActive1=false, isAbilityActive2=false, isAbilityActive3=false, isAbilityActive4=false;
+    public GameObject abilityEffect1, abilityEffect2, abilityEffect3, abilityEffect4;
     
 
     protected NonNeutral currentTarget;
+
     
 
 
@@ -134,6 +136,18 @@ public abstract class Hero : NonNeutral
 
     public NonNeutral getCurrentTarget(){
         return this.currentTarget;
+    }
+    public GameObject getAbilityEffect1(){
+        return this.abilityEffect1;
+    }
+    public GameObject getAbilityEffect2(){
+        return this.abilityEffect2;
+    }
+    public GameObject getAbilityEffect3(){
+        return this.abilityEffect3;
+    }
+    public GameObject getAbilityEffect4(){
+        return this.abilityEffect4;
     }
   
 

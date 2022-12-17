@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4c1454bd877d7a4c9770e92e4c9d035, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myHero: {fileID: 0}
+  myHero: {fileID: 7450729290362185758, guid: 090de70ac302a114c8a77af93666a83b, type: 3}
   ability1: 113
   ability2: 119
   ability3: 101

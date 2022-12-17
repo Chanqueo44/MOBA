@@ -1,0 +1,290 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'es' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Inside Dark Studios/De 0/MOBA/My project
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51381
+Successfully changed project path to: D:/Inside Dark Studios/De 0/MOBA/My project
+D:/Inside Dark Studios/De 0/MOBA/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 78.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Inside Dark Studios/De 0/MOBA/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   31.0.12027.7000
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005824 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.455 seconds
+Domain Reload Profiling:
+	ReloadAssembly (455ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (323ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (67ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (203ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002946 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Inside Dark Studios\De 0\MOBA\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Inside Dark Studios\De 0\MOBA\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 78.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Domain Reload Profiling:
+	ReloadAssembly (838ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (678ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3902 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (90.3 KB). Loaded Objects now: 4399.
+Memory consumption went from 233.2 MB to 233.1 MB.
+Total: 2.677300 ms (FindLiveObjects: 0.215200 ms CreateObjectMapping: 0.100200 ms MarkObjects: 2.265900 ms  DeleteObjects: 0.095600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 193011.376400 seconds.
+  path: Assets/Hovl Studio/Magic circles/Demo magic circles Vol 1/Demo magic circles.unity
+  artifactKey: Guid(035529b792d8c8345ba4a4d417d1bd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic circles/Demo magic circles Vol 1/Demo magic circles.unity using Guid(035529b792d8c8345ba4a4d417d1bd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddf063d495b0336888ac44205b92d86') in 0.010791 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002676 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Inside Dark Studios\De 0\MOBA\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Inside Dark Studios\De 0\MOBA\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.810 seconds
+Domain Reload Profiling:
+	ReloadAssembly (811ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3874 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (83.8 KB). Loaded Objects now: 4402.
+Memory consumption went from 230.8 MB to 230.7 MB.
+Total: 2.835000 ms (FindLiveObjects: 0.277500 ms CreateObjectMapping: 0.080700 ms MarkObjects: 2.371200 ms  DeleteObjects: 0.104900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.323714 seconds.
+  path: Assets/Hovl Studio/Resources/Models/HalfSphere2.fbx
+  artifactKey: Guid(7e6272ab2661b9041a233144ff1617eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources/Models/HalfSphere2.fbx using Guid(7e6272ab2661b9041a233144ff1617eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ca27c2ec713de3a0de4e7797db5b4d') in 0.105384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.626165 seconds.
+  path: Assets/MobaGame/ImplementedHeroes/Alyndra/Magic circle 5.prefab
+  artifactKey: Guid(dc0a9ada67be56241be0b6c45a74012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobaGame/ImplementedHeroes/Alyndra/Magic circle 5.prefab using Guid(dc0a9ada67be56241be0b6c45a74012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de3340788bf8568c1fe710674de3a48') in 0.023142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.707335 seconds.
+  path: Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 5.prefab
+  artifactKey: Guid(e5efca12a16df2c4e828be391fa88b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 5.prefab using Guid(e5efca12a16df2c4e828be391fa88b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a3f10c68cd44ab65dcf62d054b2786') in 0.003725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.353544 seconds.
+  path: Assets/Hovl Studio/Magic circles/Prefabs/Loop version
+  artifactKey: Guid(9c667a7fbd9cd354d8d3875704afa117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic circles/Prefabs/Loop version using Guid(9c667a7fbd9cd354d8d3875704afa117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f4e693ec526bbde5a463a75f4c8405') in 0.004297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.112550 seconds.
+  path: Assets/Hovl Studio/Magic circles/Prefabs/Loop version/Magic circle 1 loop.prefab
+  artifactKey: Guid(3ea611bdfd929ed43b82b1c81070fc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic circles/Prefabs/Loop version/Magic circle 1 loop.prefab using Guid(3ea611bdfd929ed43b82b1c81070fc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffb4ee404a00519dbc414465f590d4f') in 0.023832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/Magic circles/Prefabs/Loop version/Magic circle 3 loop.prefab
+  artifactKey: Guid(3f122a074538fc646b8821db82fbbbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic circles/Prefabs/Loop version/Magic circle 3 loop.prefab using Guid(3f122a074538fc646b8821db82fbbbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d52fd5f02c61c0d268c105731be3ff5') in 0.015619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/Magic circles/Prefabs/Loop version/Magic shield 1 loop.prefab
+  artifactKey: Guid(78afe2d2c6c430649b4c89b6b483db98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic circles/Prefabs/Loop version/Magic shield 1 loop.prefab using Guid(78afe2d2c6c430649b4c89b6b483db98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066ad1190c10ed5867181b1f8ad03f5e') in 0.018720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/Magic circles/Prefabs/Loop version/Magic circle 10 loop.prefab
+  artifactKey: Guid(7c76e21919cfed94bb50eef8ce720e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic circles/Prefabs/Loop version/Magic circle 10 loop.prefab using Guid(7c76e21919cfed94bb50eef8ce720e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a6e49fdd34ef847295b257dc88d59d') in 0.016512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/Magic circles/Prefabs/Loop version/Magic shield 4 loop.prefab
+  artifactKey: Guid(ef612f027a9368047a005e9811716513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic circles/Prefabs/Loop version/Magic shield 4 loop.prefab using Guid(ef612f027a9368047a005e9811716513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7c707ef7add47ed587a811cdfe69d8') in 0.022108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/Magic circles/Prefabs/Loop version/Magic circle 9 loop.prefab
+  artifactKey: Guid(1ddb25e5337e706459491b01d93aa9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic circles/Prefabs/Loop version/Magic circle 9 loop.prefab using Guid(1ddb25e5337e706459491b01d93aa9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f432cd07d1fb02f27ac13f976e1f20') in 0.017411 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

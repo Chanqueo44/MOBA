@@ -50,8 +50,9 @@ public class alyndraAbility4 : MonoBehaviour
             if (current != null)
             {   if(current.GetType().IsSubclassOf(typeof(NonNeutral))){
                     NonNeutral currentVar=current as NonNeutral;
-                    if(currentVar.getTeam()==myHero.getTeam()){
+                    if(currentVar.getTeam()==myHero.getTeam() || current == myHero){
                         current.increaseHealth(healing);
+                        
                     }
                 }
 

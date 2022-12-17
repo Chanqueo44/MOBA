@@ -11,6 +11,8 @@ public class UIAbilities : MonoBehaviour
     protected Image abilityImage3, abilityImage3Dark;
     protected Image abilityImage4, abilityImage4Dark;
 
+    public GameObject ability1Effect, ability2Effect, ability3Effect, ability4Effect;
+
     private float cooldown1, cooldown2, cooldown3, cooldown4;
     public KeyCode ability1;
     public KeyCode ability2;
@@ -54,7 +56,19 @@ public class UIAbilities : MonoBehaviour
 
         ability3Range.GetComponent<Image>().enabled = false;
         ability4Range.GetComponent<Image>().enabled = false;  
-        
+
+        //hide the ability effects 
+        ability1Effect=myHero.getAbilityEffect1();
+        ability1Effect.SetActive(false);
+
+        ability2Effect=myHero.getAbilityEffect2();
+        ability2Effect.SetActive(false);
+
+        ability3Effect=myHero.getAbilityEffect3();
+        ability3Effect.SetActive(false);
+
+        ability4Effect=myHero.getAbilityEffect4();
+        ability4Effect.SetActive(false);
 
 
         abilityImage4= myHero.getAbility4Image();
@@ -109,7 +123,11 @@ public class UIAbilities : MonoBehaviour
                     Collider gotHit= hit.transform.GetComponent<Collider>();
                     if(gotHit.GetComponentInParent<NonNeutral>()){
                             myHero.setCurrentTarget(gotHit.GetComponentInParent<NonNeutral>());
+                            ability1Effect.SetActive(true);
                             myHero.useAbility1();
+                            yield return new WaitForSeconds(2);
+                            ability1Effect.SetActive(false);
+            
                     }
             }
         }
@@ -118,6 +136,7 @@ public class UIAbilities : MonoBehaviour
     private void Ability2(){
         if(Input.GetKey(ability2) && myHero.getIsCoolDown2()==false){
             StartCoroutine(chooseTargetAbility2());
+            ability2Effect.SetActive(true);
             myHero.setIsCoolDown2(true);
             abilityImage2Dark.fillAmount=1;
         }
@@ -134,6 +153,7 @@ public class UIAbilities : MonoBehaviour
     private void Ability3(){
         if(Input.GetKey(ability3) && myHero.getIsCoolDown3()==false){
             ability3Range.GetComponent<Image>().enabled = true; 
+            ability3Effect.SetActive(true);
             StartCoroutine(choseAreaAbility3());
             myHero.setIsCoolDown3(true);
             abilityImage3Dark.fillAmount=1;
@@ -152,6 +172,7 @@ public class UIAbilities : MonoBehaviour
         if(Input.GetKey(ability4) && myHero.getIsCoolDown4()==false){
             myHero.setIsCoolDown4(true);
             ability4Range.GetComponent<Image>().enabled = true;
+            ability4Effect.SetActive(true);
             StartCoroutine(choseAreaAbility4());
             abilityImage4Dark.fillAmount=1;
         }
@@ -179,6 +200,8 @@ public class UIAbilities : MonoBehaviour
                             myHero.useAbility2();
                     }
             }
+            yield return new WaitForSeconds(2);
+            ability2Effect.SetActive(false);
         }
     }
 
@@ -213,10 +236,12 @@ public class UIAbilities : MonoBehaviour
                 ability3Range.GetComponent<Image>().enabled = false; 
                 myHero.GetComponentInChildren<AlyndraAnimator>().ability3Trigger();
                 myHero.useAbility3();
+                yield return new WaitForSeconds(4);
+                ability3Effect.SetActive(false);
 
             }
         }
-        
+    
     }
 
 
@@ -251,6 +276,8 @@ public class UIAbilities : MonoBehaviour
                 ability4Range.GetComponent<Image>().enabled = false; 
                 myHero.GetComponentInChildren<AlyndraAnimator>().ability4Trigger();
                 myHero.useAbility4();
+                yield return new WaitForSeconds(4);
+                ability4Effect.SetActive(false);
             }
         }
         

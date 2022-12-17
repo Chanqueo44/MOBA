@@ -16,8 +16,6 @@ public class alyndraAbiliity3 : MonoBehaviour
         Entity current = other.gameObject.GetComponent<Entity>();
         if(current != null){
             target.Add(current);
-            Debug.Log("estoy acá");
-
         }
     }
 
@@ -27,8 +25,6 @@ public class alyndraAbiliity3 : MonoBehaviour
         Entity current = other.gameObject.GetComponent<Entity>();
         if(current != null){
             target.Add(current);
-            Debug.Log("estoy acá");
-
         }
         
     }

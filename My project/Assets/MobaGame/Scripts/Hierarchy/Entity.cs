@@ -116,6 +116,9 @@ public abstract class Entity : MonoBehaviour
     public float getDefense(){
         return this.defense;
     }
+    public float getAttack(){
+        return this.attackDamage;
+    }
     public float getArmour(){
         return this.armour;
     }

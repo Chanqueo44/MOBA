@@ -20,6 +20,10 @@ public class Combat : MonoBehaviour
         return this.targetedEntity;
     }
 
+    //ranged hero
+    public GameObject projPrefab;
+    public Transform projSpawnPoint;
+
     void Start(){
         moveScript = GetComponent<Movement>();
     }   

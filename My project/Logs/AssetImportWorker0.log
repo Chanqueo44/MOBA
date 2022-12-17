@@ -15,7 +15,7 @@ D:/Inside Dark Studios/De 0/MOBA/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51381
+57061
 Successfully changed project path to: D:/Inside Dark Studios/De 0/MOBA/My project
 D:/Inside Dark Studios/De 0/MOBA/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Inside Dark Studios/De 0/MOBA/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 75.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -64,92 +64,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006496 seconds.
+Registered in 0.005820 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 73.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 81.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.463 seconds
+- Completed reload, in  0.479 seconds
 Domain Reload Profiling:
-	ReloadAssembly (463ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (480ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (326ms)
-			LoadAssemblies (52ms)
+		EndReloadAssembly (341ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (68ms)
+			SetupTypeCache (70ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (199ms)
+			SetupLoadedEditorAssemblies (213ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
+				RefreshPlugins (81ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (86ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003377 seconds.
+Registered in 0.003174 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Inside Dark Studios\De 0\MOBA\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Inside Dark Studios\De 0\MOBA\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 72.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.847 seconds
+- Completed reload, in  1.180 seconds
 Domain Reload Profiling:
-	ReloadAssembly (848ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (1181ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (677ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (1003ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
+			SetupTypeCache (274ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (373ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (564ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3879 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (89.3 KB). Loaded Objects now: 4375.
-Memory consumption went from 230.4 MB to 230.3 MB.
-Total: 2.710600 ms (FindLiveObjects: 0.255100 ms CreateObjectMapping: 0.105000 ms MarkObjects: 2.236900 ms  DeleteObjects: 0.112600 ms)
+Unloading 3902 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (89.2 KB). Loaded Objects now: 4400.
+Memory consumption went from 233.5 MB to 233.4 MB.
+Total: 3.009400 ms (FindLiveObjects: 0.238100 ms CreateObjectMapping: 0.087200 ms MarkObjects: 2.570500 ms  DeleteObjects: 0.113000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,62 +163,218 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 188979.092613 seconds.
-  path: Assets/MobaGame/Scripts/Hierarchy/NonNeutral.cs
-  artifactKey: Guid(a3457c8195b1c9c48b9bfe6243a42e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobaGame/Scripts/Hierarchy/NonNeutral.cs using Guid(a3457c8195b1c9c48b9bfe6243a42e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8afd9b141b3067ac017365bb2ee320d') in 0.024464 seconds 
+  Time since last request: 194978.220588 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Dark_6.prefab
+  artifactKey: Guid(3b34a40d563b1cb4bbac5c9ee9bb0b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Dark_6.prefab using Guid(3b34a40d563b1cb4bbac5c9ee9bb0b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a26eb0b2c6f9afe705a198da6a63d38') in 0.097287 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.012699 seconds.
-  path: Assets/MobaGame/Scripts/Hierarchy/Hero.cs
-  artifactKey: Guid(eea8c8bc9711cc14784dd6aa47867850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobaGame/Scripts/Hierarchy/Hero.cs using Guid(eea8c8bc9711cc14784dd6aa47867850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99d72ec4fbc46b1c2e9efc00a0ae7d8') in 0.004603 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Fire_8.prefab
+  artifactKey: Guid(0011549e85c32bf4f8ce3fa40201fa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Fire_8.prefab using Guid(0011549e85c32bf4f8ce3fa40201fa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c86e6d5c72e46c4ef73516dd6fd39c0') in 0.051325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Fire_9.prefab
+  artifactKey: Guid(9d050a758c1b52a4498c7cfa292f025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Fire_9.prefab using Guid(9d050a758c1b52a4498c7cfa292f025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247af7eded904245e5fa7ee262f5ea19') in 0.020335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Fire_5.prefab
+  artifactKey: Guid(9556e40635c6f4a47929213ddb022409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Fire_5.prefab using Guid(9556e40635c6f4a47929213ddb022409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd239ad625965c16628f4d3c15b101efd') in 0.014238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Dark_3.prefab
+  artifactKey: Guid(3e006f039301b3546a8e442f2ad51b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Dark_3.prefab using Guid(3e006f039301b3546a8e442f2ad51b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78541f8ebb52e52cd86c4b2b01dfd32a') in 0.013188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Arcane_8.prefab
+  artifactKey: Guid(aacad47cc1e1433498a9f95c5839dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Arcane_8.prefab using Guid(aacad47cc1e1433498a9f95c5839dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208d8fde1ad17749f14999f9ab1bac56') in 0.015502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Arcane_11.prefab
+  artifactKey: Guid(d6ec19e8f13d9d747982d9db03488d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Arcane_11.prefab using Guid(d6ec19e8f13d9d747982d9db03488d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2607d843aea38f3a48f355d829b9056') in 0.024841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Fire_10.prefab
+  artifactKey: Guid(7e22fef2736064640a0c940b7c13e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Fire_10.prefab using Guid(7e22fef2736064640a0c940b7c13e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935c90addc777bd81b209e511a010c51') in 0.017027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Ice_6.prefab
+  artifactKey: Guid(07b5929724d24004bb91688e2a7a7174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Ice_6.prefab using Guid(07b5929724d24004bb91688e2a7a7174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb2bb55d9f1da1cc8eed84c055decfc') in 0.021737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Fire_11.prefab
+  artifactKey: Guid(a900f7de657fd444e87c2c9876fe10c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Fire_11.prefab using Guid(a900f7de657fd444e87c2c9876fe10c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7210d884d7f688556a452758e2c7f255') in 0.018577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Dark_2.prefab
+  artifactKey: Guid(e4235d32ebd48f1499935ec5d4c8e5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Dark_2.prefab using Guid(e4235d32ebd48f1499935ec5d4c8e5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981c371ba3f944bc8a69696c761868d9') in 0.020214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Dark_5.prefab
+  artifactKey: Guid(8d12400ce1b37cb4590bfec31dd3e88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Dark_5.prefab using Guid(8d12400ce1b37cb4590bfec31dd3e88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f10460cc942ad49f43f6fd9c941b218') in 0.017478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Arcane_5.prefab
+  artifactKey: Guid(998f7e44c85c20148b3b04f193475e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Arcane_5.prefab using Guid(998f7e44c85c20148b3b04f193475e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a06305dc87d8fc6fb99f40a04929115') in 0.016582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Fire_6.prefab
+  artifactKey: Guid(1bb164cb58786a04a8d3de75ed23a5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Fire_6.prefab using Guid(1bb164cb58786a04a8d3de75ed23a5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a3f009d341356bc341ae91462184be') in 0.016207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Fire.prefab
+  artifactKey: Guid(dee07cb3ed72b59499446ff2189aff0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Fire.prefab using Guid(dee07cb3ed72b59499446ff2189aff0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81bf5c32254ee8977e59ce7649d43f6') in 0.015881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Dark_8.prefab
+  artifactKey: Guid(27a0ff2d6e4b1e14398e9c726962bbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Dark_8.prefab using Guid(27a0ff2d6e4b1e14398e9c726962bbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042e76147dea55d628bc6e2764edd104') in 0.018619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.870176 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Ice_9.prefab
+  artifactKey: Guid(91d54d231b4d1294cafc6f8f126e61db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Ice_9.prefab using Guid(91d54d231b4d1294cafc6f8f126e61db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5368da047fab1f23cbaf08d695ab4b') in 0.021695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Ice_11.prefab
+  artifactKey: Guid(fbfe94caac35758428ed49bf9f79541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Ice_11.prefab using Guid(fbfe94caac35758428ed49bf9f79541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ff2789a80a9fbeb28cc3239cff9b40') in 0.018187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Light_4.prefab
+  artifactKey: Guid(a894e7f90d6303b41b43b63d01349917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Light_4.prefab using Guid(a894e7f90d6303b41b43b63d01349917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5280eeb87e8bacfbb394b37c871da141') in 0.013662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.637443 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Light_7.prefab
+  artifactKey: Guid(a52b16e1858c9314d8028b3a4fda2f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Light_7.prefab using Guid(a52b16e1858c9314d8028b3a4fda2f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70deca4620521bc233a4d1a9e4563f95') in 0.015003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Light_10.prefab
+  artifactKey: Guid(d626745a18eb3d8488d36f9ce6e92993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Light_10.prefab using Guid(d626745a18eb3d8488d36f9ce6e92993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a19fbc2c6865f3f19d3178d7819931') in 0.016714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Nature_4.prefab
+  artifactKey: Guid(c58ffd168250f624ea54fdd0e6101de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Nature_4.prefab using Guid(c58ffd168250f624ea54fdd0e6101de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d7836f71c2a46dd4332ea453ce98b0') in 0.027567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Light_11.prefab
+  artifactKey: Guid(bd322e1b5aa20eb4e8110182af757e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Light_11.prefab using Guid(bd322e1b5aa20eb4e8110182af757e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3062c23fe3abc5fb659113e0a25f8ef') in 0.025770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.393568 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Nature_6.prefab
+  artifactKey: Guid(f519265e016ffe448ab62c16e8b30876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Nature_6.prefab using Guid(f519265e016ffe448ab62c16e8b30876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cfa6d0695ff83e545d1ef1eaa97293') in 0.015880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Nature_10.prefab
+  artifactKey: Guid(6e033b4d904cf38469081fce124019f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Nature_10.prefab using Guid(6e033b4d904cf38469081fce124019f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63854637fdb6b2acc0525cba2ecf7d2') in 0.014718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Storm_4.prefab
+  artifactKey: Guid(94492c53d47b24946bb38e7725604299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Storm_4.prefab using Guid(94492c53d47b24946bb38e7725604299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e369a0c6b46937d057b1e96770c0f059') in 0.016550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.686449 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Storm_6.prefab
+  artifactKey: Guid(cdf23e11c5b534740bca51acca6759c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Storm_6.prefab using Guid(cdf23e11c5b534740bca51acca6759c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6441ed70a2e724b9ad0230c1bf1567a6') in 0.016510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Storm_10.prefab
+  artifactKey: Guid(96a93f4ede8a7634fa50b0a07d9ebdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells Pack/Particles/Prefabs/Spells/Spell_Storm_10.prefab using Guid(96a93f4ede8a7634fa50b0a07d9ebdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd80203cd7cd44607fe823fe4b9f8cf') in 0.015310 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005895 seconds.
+Registered in 0.002815 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Inside Dark Studios\De 0\MOBA\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Inside Dark Studios\De 0\MOBA\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.810 seconds
 Domain Reload Profiling:
-	ReloadAssembly (810ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (811ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (578ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (623ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
+			SetupTypeCache (188ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (275ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (303ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (186ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (201ms)
 				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3886 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (1.0 MB). Loaded Objects now: 4389.
-Memory consumption went from 231.8 MB to 230.8 MB.
-Total: 2.881000 ms (FindLiveObjects: 0.235200 ms CreateObjectMapping: 0.107800 ms MarkObjects: 2.191700 ms  DeleteObjects: 0.345500 ms)
+Unloading 3874 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (84.4 KB). Loaded Objects now: 4412.
+Memory consumption went from 236.0 MB to 235.9 MB.
+Total: 3.030300 ms (FindLiveObjects: 0.268700 ms CreateObjectMapping: 0.081400 ms MarkObjects: 2.562900 ms  DeleteObjects: 0.116200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -230,198 +386,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 673.799147 seconds.
-  path: Assets/Hovl Studio/AAA Projectiles Vol 1
-  artifactKey: Guid(c262a4075a2ef114dad9068b20acf5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AAA Projectiles Vol 1 using Guid(c262a4075a2ef114dad9068b20acf5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6374ca6b268108f2490609a411c1e0a6') in 0.011976 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.788762 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1
-  artifactKey: Guid(2a4a2ba7ad107514592eb523ce27a19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1 using Guid(2a4a2ba7ad107514592eb523ce27a19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fe75a4ccb9c66a2985a4b74ddf97d9') in 0.004678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.572539 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Demo AOE skills
-  artifactKey: Guid(f2430e3f1d80036468aae14ca49d0813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Demo AOE skills using Guid(f2430e3f1d80036468aae14ca49d0813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9678205f7287d7096299415a022f634b') in 0.004413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.083326 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Demo AOE skills/LightingData.asset
-  artifactKey: Guid(faa4b86ef3c40464a90105bd7feb5ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Demo AOE skills/LightingData.asset using Guid(faa4b86ef3c40464a90105bd7feb5ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be41f5d2b13f2b98584ffbe593926e92') in 0.018795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Demo AOE skills/Lightmap-0_comp_light.exr
-  artifactKey: Guid(9960b70afbb00c1468c54c31462b736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Demo AOE skills/Lightmap-0_comp_light.exr using Guid(9960b70afbb00c1468c54c31462b736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fd316ffe2a912008dd615e388415aa') in 0.062510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Demo AOE skills/ReflectionProbe-0.exr
-  artifactKey: Guid(b437cf6f67f5f1c4e9f1876cbbb8aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Demo AOE skills/ReflectionProbe-0.exr using Guid(b437cf6f67f5f1c4e9f1876cbbb8aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36acdc43809f4ef08e191f510d998661') in 0.062802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.744966 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs
-  artifactKey: Guid(6b4a97fb20b21aa47a30e612beac2f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs using Guid(6b4a97fb20b21aa47a30e612beac2f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372e7ffb6b674013f47849dbeb9d75ee') in 0.004744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.038344 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Buff 1.prefab
-  artifactKey: Guid(b4069a656bda4d940bf63c71279f5c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Buff 1.prefab using Guid(b4069a656bda4d940bf63c71279f5c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bdd0ed0d0a70cb456f97fd990516b5') in 0.084609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Buff 7.prefab
-  artifactKey: Guid(7ee7aea814e67034c991de25882a040b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Buff 7.prefab using Guid(7ee7aea814e67034c991de25882a040b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd929d3511fa7f72b994ecd24d6f67b30') in 0.015044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Lightning strike.prefab
-  artifactKey: Guid(dfabbd05c7735314e97de47b3d7695c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Lightning strike.prefab using Guid(dfabbd05c7735314e97de47b3d7695c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069c2a8eacf53b5af61159742c05d677') in 0.027405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Buff 5.prefab
-  artifactKey: Guid(4ef343c2fedb6884aac07e8610d65212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Buff 5.prefab using Guid(4ef343c2fedb6884aac07e8610d65212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099bb8273919d842bf6156dd66e046fe') in 0.017090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Front spikes attack.prefab
-  artifactKey: Guid(7b11714ce9d7e1f47826b05270b779e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Front spikes attack.prefab using Guid(7b11714ce9d7e1f47826b05270b779e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe618761769be7af5fba30bf26896292') in 0.137955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Magic hit.prefab
-  artifactKey: Guid(a32d87b33cadfed4b83eeaa564eb7724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Magic hit.prefab using Guid(a32d87b33cadfed4b83eeaa564eb7724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bff8f5e9244c8da55ebdcfa58886ee') in 0.042666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Yellow Flash.prefab
-  artifactKey: Guid(16b914e11b128e54fb9f85a547c95812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Yellow Flash.prefab using Guid(16b914e11b128e54fb9f85a547c95812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be6d7c03bf0c9d35e11710efb6eabb7') in 0.015591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Magic Sparks.prefab
-  artifactKey: Guid(2bdfafb54af034a46815013e96d908d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Magic Sparks.prefab using Guid(2bdfafb54af034a46815013e96d908d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1243d7806d39db845a71fbd52c3c0ae1') in 0.011097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Buff 4.prefab
-  artifactKey: Guid(f99c3ed97779c5b4eb026cb91d4e4933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Buff 4.prefab using Guid(f99c3ed97779c5b4eb026cb91d4e4933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db02d08d6d481d52bb1d902a8ba0348') in 0.015774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Debuff 1.prefab
-  artifactKey: Guid(13a7c7a8d1bb29943ae2fda15a8f1e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Debuff 1.prefab using Guid(13a7c7a8d1bb29943ae2fda15a8f1e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c2327f66cf0ad69d8313ff456ee1be') in 0.104685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Flower slash.prefab
-  artifactKey: Guid(bd76aad308d231743b8d95dd2c02d6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Flower slash.prefab using Guid(bd76aad308d231743b8d95dd2c02d6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c96af332ca866cbbc6abc79fa08ea3') in 0.020997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Knife hit.prefab
-  artifactKey: Guid(1c3dac94110955943a4e5707f432c392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Knife hit.prefab using Guid(1c3dac94110955943a4e5707f432c392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30c9b7cc136cf70210b6bd726fd8360') in 0.014347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Ise attack.prefab
-  artifactKey: Guid(18923174f2b0caa4d9dbc5fe46052f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Ise attack.prefab using Guid(18923174f2b0caa4d9dbc5fe46052f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e889cb9c804178b5b162d82b755e5ecf') in 0.017257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Heal.prefab
-  artifactKey: Guid(721cfe8018b2cd04abd0748143d2a312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Heal.prefab using Guid(721cfe8018b2cd04abd0748143d2a312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0be3edd729f94a03a3e1bdb5e502b0') in 0.035347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Meteor shower.prefab
-  artifactKey: Guid(801830a34b3285842a8be1b874330251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Meteor shower.prefab using Guid(801830a34b3285842a8be1b874330251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c387f83a6868e49bdfc533aa006713') in 0.027757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Magic attack.prefab
-  artifactKey: Guid(ec40dcc0df25c9c44bb4f938a05e1482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Magic attack.prefab using Guid(ec40dcc0df25c9c44bb4f938a05e1482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4723e001cfa607a0499267e8063aaf7') in 0.023131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Dragon punch.prefab
-  artifactKey: Guid(fb2df51e77abde1429eb83c0317784af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Dragon punch.prefab using Guid(fb2df51e77abde1429eb83c0317784af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8712f90d61219e5abdb348d3fd46c8') in 0.036297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 197.308503 seconds.
-  path: Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 2.prefab
-  artifactKey: Guid(b2b32816444d787499f1e6efe5c08f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 2.prefab using Guid(b2b32816444d787499f1e6efe5c08f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd413ba04a3ab5a0009a5a9cd85a709c') in 0.017810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 6.prefab
-  artifactKey: Guid(be9c39cbc79c30349b1067bae216e1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 6.prefab using Guid(be9c39cbc79c30349b1067bae216e1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e065ba7481b22221c0254dd9cd486fad') in 0.018852 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 5.prefab
-  artifactKey: Guid(e5efca12a16df2c4e828be391fa88b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 5.prefab using Guid(e5efca12a16df2c4e828be391fa88b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0858a382ea8436a89475ac9d147d6a') in 0.015845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 10.prefab
-  artifactKey: Guid(d0014edc3649e5147976734cef091506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 10.prefab using Guid(d0014edc3649e5147976734cef091506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfad7816dd9840cbfbf0e96a325d33b9') in 0.017467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 4.prefab
-  artifactKey: Guid(1d45734a67e531c43b87d8b56a4dcff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 4.prefab using Guid(1d45734a67e531c43b87d8b56a4dcff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3625e3992185379f2101b44706f200') in 0.021963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 11.prefab
-  artifactKey: Guid(5c734c7bc14483a4d9b880211468f63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 11.prefab using Guid(5c734c7bc14483a4d9b880211468f63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9110a555ec199c6c29fab2b204a7abb1') in 0.022163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 3.prefab
-  artifactKey: Guid(7558be78bd626304dbbc627760117bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 3.prefab using Guid(7558be78bd626304dbbc627760117bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0ef79ff01d6cd267d28e00c242c84b') in 0.017715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 7.prefab
-  artifactKey: Guid(d9790f52d7678a34da74f59808e85439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles/Prefabs/Magic circle 7.prefab using Guid(d9790f52d7678a34da74f59808e85439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ef615da935d6f3dc11872aea7fcd1f') in 0.020637 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

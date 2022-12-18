@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/MobaGame/Scenes/Main.unity
+- path: Assets/MobaGame/Scenes/Endless Wave.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

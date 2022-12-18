@@ -10,7 +10,6 @@ public class inputTarget : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        selectedEntity = GameObject.FindObjectOfType<Entity>();
     }
 
     // Update is called once per frame

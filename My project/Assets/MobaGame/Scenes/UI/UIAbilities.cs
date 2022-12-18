@@ -22,9 +22,7 @@ public class UIAbilities : MonoBehaviour
      // variables for using Ability1   
 
    
-    public Canvas ability1Canvas;
-   
-    public Canvas ability3Canvas;
+     public Canvas ability3Canvas;
     public Image ability3Range;
     private Vector3 posUp;
     public Canvas ability4Canvas;
@@ -76,8 +74,6 @@ public class UIAbilities : MonoBehaviour
         abilityImage4Dark.fillAmount=0;
         cooldown4=myHero.getCoolDown4();
 
-        this.ability1Canvas.enabled=false;
-     
         
     }
 
@@ -94,8 +90,8 @@ public class UIAbilities : MonoBehaviour
 
     private void Ability1(){
         if(Input.GetKey(ability1) && myHero.getIsCoolDown1()==false ){
+            ability1Effect.SetActive(true);
             StartCoroutine(chooseTargetAbility1());
-            ability1Canvas.enabled=true;
             myHero.setIsCoolDown1(true);
             abilityImage1Dark.fillAmount=1;
         }
@@ -123,13 +119,12 @@ public class UIAbilities : MonoBehaviour
                     Collider gotHit= hit.transform.GetComponent<Collider>();
                     if(gotHit.GetComponentInParent<NonNeutral>()){
                             myHero.setCurrentTarget(gotHit.GetComponentInParent<NonNeutral>());
-                            ability1Effect.SetActive(true);
                             myHero.useAbility1();
-                            yield return new WaitForSeconds(2);
-                            ability1Effect.SetActive(false);
             
                     }
             }
+            yield return new WaitForSeconds(2);
+            ability1Effect.SetActive(false);
         }
     }
     

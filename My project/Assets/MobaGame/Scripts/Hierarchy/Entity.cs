@@ -149,13 +149,13 @@ public abstract class Entity : MonoBehaviour
         return this.speed;
     }
 
-    void Start(){
+    /*void Start(){
         healthBarUi.maxValue=maxHealth;
     
     }
 
     void Update(){
         healthBarUi.value=currentHealth;
-    }
+    }*/
 }
 

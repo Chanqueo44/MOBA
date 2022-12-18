@@ -122,6 +122,11 @@ public class UIAbilities : MonoBehaviour
                             myHero.useAbility1();
             
                     }
+                    if(gotHit.GetComponentInParent<Enemy>()){
+                            myHero.setCurrentTarget(gotHit.GetComponentInParent<Enemy>());
+                            myHero.useAbility1();
+            
+                    }
             }
             yield return new WaitForSeconds(2);
             ability1Effect.SetActive(false);
@@ -192,6 +197,10 @@ public class UIAbilities : MonoBehaviour
                     Collider gotHit= hit.transform.GetComponent<Collider>();
                     if(gotHit.GetComponentInParent<NonNeutral>()){
                             myHero.setCurrentTarget(gotHit.GetComponentInParent<NonNeutral>());
+                            myHero.useAbility2();
+                    }
+                    if(gotHit.GetComponentInParent<Enemy>()){
+                            myHero.setCurrentTarget(gotHit.GetComponentInParent<Enemy>());
                             myHero.useAbility2();
                     }
             }

@@ -5,19 +5,19 @@ using UnityEngine.UI;
 
 public class UIHpAndResources : MonoBehaviour
 {
-    public Hero myHero;
-    public Slider playerHPSlider;
+    public Entity myEntity;
+    public Slider entityHPSlider;
    
     // Start is called before the first frame update
     void Start()
     {
-        playerHPSlider.maxValue= myHero.getMaxHealth();
-        playerHPSlider.value= myHero.getCurrentHealth();
+        entityHPSlider.maxValue= myEntity.getMaxHealth();
+        entityHPSlider.value= myEntity.getCurrentHealth();
     }
 
     // Update is called once per frame
     void Update()
     {
-        playerHPSlider.value= myHero.getCurrentHealth();
+        entityHPSlider.value= myEntity.getCurrentHealth();
     }
 }

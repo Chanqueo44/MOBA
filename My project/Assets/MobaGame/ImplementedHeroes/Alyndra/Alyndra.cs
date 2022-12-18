@@ -17,25 +17,39 @@ public class Alyndra : Hero
 
     public override void useAbility1(){
         if(this.currentTarget!=null){
-           if(currentTarget.getTeam()==this.team){
-                float healing= currentTarget.getMaxHealth()*0.2f;;
-                if(currentTarget.getCurrentHealth()+healing>= currentTarget.getMaxHealth()){
-                    healing=currentTarget.getMaxHealth()-currentTarget.getCurrentHealth();
+           if(currentTarget is NonNeutral){
+                NonNeutral target= currentTarget as NonNeutral;
+                if(target.getTeam()==this.team){
+                    float healing= target.getMaxHealth()*0.2f;;
+                    if(target.getCurrentHealth()+healing>= target.getMaxHealth()){
+                      healing=target.getMaxHealth()-target.getCurrentHealth();
+                    }
+                    target.increaseHealth(healing);
                 }
-                currentTarget.increaseHealth(healing);
             }
         }
     }
     
     public override void useAbility2(){
-         if(this.currentTarget!=null){
-           if(currentTarget.getTeam()!=this.team){
-                float damage= currentTarget.getMaxHealth()*0.1f;;
-                if(currentTarget.getCurrentHealth()-damage<= 0){
-                    //DEBÍA MORIR*inserte voz de isma 
-                    currentTarget.decreaseHealth(damage);
+        if(this.currentTarget!=null){
+           if(currentTarget is NonNeutral){
+                NonNeutral target= currentTarget as NonNeutral;
+                if(target.getTeam()!=this.team){
+                    float damage= target.getMaxHealth()*0.1f;;
+                    if(target.getCurrentHealth()-damage<= 0){
+                         //DEBÍA MORIR*inserte voz de isma 
+                        target.decreaseHealth(damage);
+                    }
+                    target.decreaseHealth(damage);
                 }
-                currentTarget.decreaseHealth(damage);
+            }
+            else if(currentTarget is Enemy){
+                float damage= currentTarget.getMaxHealth()*0.1f;;
+                    if(currentTarget.getCurrentHealth()-damage<= 0){
+                         //DEBÍA MORIR*inserte voz de isma 
+                        currentTarget.decreaseHealth(damage);
+                    }
+                    currentTarget.decreaseHealth(damage);
             }
         }
     }

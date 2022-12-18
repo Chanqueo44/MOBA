@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Z ! MOBA Environment Art Pack\Scripts\AutoRotary.cs" />
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\NewMaterialChange.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\EndlessWave\EndlessSpawner.cs" />
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\LookAtTarget.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\Utility\Singleton.cs" />
@@ -100,6 +101,7 @@
      <Compile Include="Assets\Game\3D\Unidades\HIT GO\Scripts\ChangeMesh.cs" />
      <Compile Include="Assets\MobaGame\Scripts\Combat.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\Hierarchy\Neutral.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\ShadowBhv.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
@@ -153,6 +155,7 @@
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\Quantity\DynamicsType.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\Utility\BarGradient.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\Jungle\Harpy.cs" />
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\DelayActive.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\DecrementLabelBhv.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Sample Scene\HailBhv.cs" />
@@ -182,6 +185,7 @@
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\LabelBhv.cs" />
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\DestroyObject.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\Hierarchy\Enemy.cs" />
      <None Include="Assets\Game\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\GothicUI\Shaders\FluidDouble.shader" />
      <None Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Demo scenes\Readme.txt" />

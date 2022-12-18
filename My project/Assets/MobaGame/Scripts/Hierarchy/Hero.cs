@@ -24,7 +24,7 @@ public abstract class Hero : NonNeutral
     public GameObject abilityEffect1, abilityEffect2, abilityEffect3, abilityEffect4;
     
 
-    protected NonNeutral currentTarget;
+    protected Entity currentTarget;
 
     
 
@@ -64,7 +64,7 @@ public abstract class Hero : NonNeutral
 
     //Setters
 
-    public void setCurrentTarget(NonNeutral target){
+    public void setCurrentTarget(Entity target){
         this.currentTarget=target;
     }
    
@@ -134,7 +134,7 @@ public abstract class Hero : NonNeutral
     }
    
 
-    public NonNeutral getCurrentTarget(){
+    public Entity getCurrentTarget(){
         return this.currentTarget;
     }
     public GameObject getAbilityEffect1(){

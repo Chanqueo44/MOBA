@@ -47,6 +47,10 @@ public class alyndraAbiliity3 : MonoBehaviour
                         checkedForDeath(current);   
                     }
                 }
+                else if(current.GetType().IsSubclassOf(typeof(Neutral))){
+                    current.decreaseHealth(damage);
+                    checkedForDeath(current);   
+                }
             }
             
         }

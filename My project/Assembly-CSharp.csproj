@@ -58,6 +58,7 @@
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\ObjectMoveDestroy.cs" />
      <Compile Include="Assets\Game\3D\Unidades\HIT GO\Scripts\CameraRotate.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\Hierarchy\Enemy.cs" />
      <Compile Include="Assets\Game\Scripts\Audio\AudioManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\MobaGame\Scripts\Hierarchy\Entity.cs" />
@@ -185,7 +186,12 @@
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\LabelBhv.cs" />
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\DestroyObject.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\MobaGame\Scripts\Hierarchy\Enemy.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\StateMachine\State.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\StateMachine\StateManager.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\StateMachine\IdleState.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\StateMachine\ChaseState.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\StateMachine\AttackState.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\AI\EnemyLocomotionManager.cs" />
      <None Include="Assets\Game\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\GothicUI\Shaders\FluidDouble.shader" />
      <None Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Demo scenes\Readme.txt" />

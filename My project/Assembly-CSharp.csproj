@@ -40,6 +40,7 @@
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\NewMaterialChange.cs" />
      <Compile Include="Assets\MobaGame\Scripts\EndlessWave\EndlessSpawner.cs" />
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\LookAtTarget.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\StateMachine\AttackState.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\Utility\Singleton.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
@@ -64,6 +65,7 @@
      <Compile Include="Assets\MobaGame\Scripts\Hierarchy\Entity.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\FillableBhv.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\IncrementLabelBhv.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\AI\EnemyLocomotionManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ScaleFactorApplyToMaterial.cs" />
@@ -77,6 +79,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\MobaGame\Scripts\inputTarget.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\StateMachine\ChaseState.cs" />
      <Compile Include="Assets\Hovl Studio\Resources\Scripts\Hovl_LaserDemo.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\BorderBhv.cs" />
      <Compile Include="Assets\Game\Scripts\Audio\PlayAudioTrack.cs" />
@@ -102,6 +105,7 @@
      <Compile Include="Assets\Game\3D\Unidades\HIT GO\Scripts\ChangeMesh.cs" />
      <Compile Include="Assets\MobaGame\Scripts\Combat.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\StateMachine\State.cs" />
      <Compile Include="Assets\MobaGame\Scripts\Hierarchy\Neutral.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\ShadowBhv.cs" />
@@ -128,6 +132,7 @@
      <Compile Include="Assets\Hovl Studio\Resources\Scripts\ProjectileMover.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\RenderMode.cs" />
      <Compile Include="Assets\Hovl Studio\Resources\Scripts\Hovl_DemoLasers.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\StateMachine\StateManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\Utility\BarColors.cs" />
      <Compile Include="Assets\Z ! MOBA Environment Art Pack\Scripts\Rulemovement.cs" />
@@ -140,6 +145,7 @@
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousRotateObject.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\FillManagerBhv.cs" />
      <Compile Include="Assets\Hovl Studio\Resources\Scripts\HittedObject.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\AI\EnemyAnimatorManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\Game\Scripts\Audio\AudioVolumeManager.cs" />
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\ShieldActivate.cs" />
@@ -159,6 +165,7 @@
      <Compile Include="Assets\MobaGame\Scripts\Jungle\Harpy.cs" />
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\DelayActive.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\DecrementLabelBhv.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\StateMachine\IdleState.cs" />
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Sample Scene\HailBhv.cs" />
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousMouseOrbit.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
@@ -186,12 +193,7 @@
      <Compile Include="Assets\Game\Plugins\Minimalist Bar System\Scripts\Bar System\UI\LabelBhv.cs" />
      <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\DestroyObject.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\MobaGame\Scripts\StateMachine\State.cs" />
-     <Compile Include="Assets\MobaGame\Scripts\StateMachine\StateManager.cs" />
-     <Compile Include="Assets\MobaGame\Scripts\StateMachine\IdleState.cs" />
-     <Compile Include="Assets\MobaGame\Scripts\StateMachine\ChaseState.cs" />
-     <Compile Include="Assets\MobaGame\Scripts\StateMachine\AttackState.cs" />
-     <Compile Include="Assets\MobaGame\Scripts\AI\EnemyLocomotionManager.cs" />
+     <Compile Include="Assets\MobaGame\Scripts\AI\EnemyAnimatorManager1.cs" />
      <None Include="Assets\Game\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\GothicUI\Shaders\FluidDouble.shader" />
      <None Include="Assets\Hovl Studio\AAA Projectiles Vol 1\Demo scenes\Readme.txt" />

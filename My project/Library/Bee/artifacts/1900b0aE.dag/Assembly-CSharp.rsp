@@ -431,6 +431,8 @@
 "Assets/MobaGame/ImplementedHeroes/DaisyW/DaisyWalker.cs"
 "Assets/MobaGame/Scenes/UI/UIAbilities.cs"
 "Assets/MobaGame/Scenes/UI/UIHpAndResources.cs"
+"Assets/MobaGame/Scripts/AI/EnemyAnimatorManager.cs"
+"Assets/MobaGame/Scripts/AI/EnemyAnimatorManager1.cs"
 "Assets/MobaGame/Scripts/AI/EnemyLocomotionManager.cs"
 "Assets/MobaGame/Scripts/CameraFollow.cs"
 "Assets/MobaGame/Scripts/CameraScroll.cs"

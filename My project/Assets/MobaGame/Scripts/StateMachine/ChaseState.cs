@@ -5,7 +5,7 @@ using UnityEngine;
 public class ChaseState : State
 {
     public AttackState attackState;
-    public bool isInAttackRange;
+    public  bool isInAttackRange;
 
     public override State RunCurrentState()
     {

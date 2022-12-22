@@ -23,7 +23,7 @@ public abstract class Entity : MonoBehaviour
     
     [SerializeField] protected float speed;
 
-    protected Entity currentEnemy;
+    public Entity currentEnemy;
     protected Entity lastHitBy;
     
     
@@ -96,6 +96,10 @@ public abstract class Entity : MonoBehaviour
 
     public void setSpeed(float speed){
         this.speed = speed;
+    }
+
+    public void setCurrentEnemy(Entity enemy){
+        this.currentEnemy=enemy;
     }
 
     //getters
